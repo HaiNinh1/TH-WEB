@@ -1,0 +1,14 @@
+.title{
+  border-left: 7px solid #812c1f;
+
+  h2{
+    margin-left: 20px;
+    color: #812c1f;
+  }
+}
+
+.body{
+  display: flex;
+  gap: 20px;
+  
+}

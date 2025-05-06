@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Information Form</title>
+</head>
+<body>
+    <form>
+        <h2>Basic Info</h2>
+        <table>
+            <tr>
+                <td>Employee ID</td>
+                <td><input type="text" value="9" readonly></td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td><input type="text" value="Dodsworth" readonly></td>
+            </tr>
+            <tr>
+                <td>First Name</td>
+                <td><input type="text" value="Anne"></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" name="gender" id="male"> <label for="male">Male</label><br>
+                    <input type="radio" name="gender" id="female"> <label for="female">Female</label><br>
+                    <input type="radio" name="gender" id="xxx"> <label for="xxx">XXX</label><br>
+                    <input type="radio" name="gender" id="zzz" checked> <label for="zzz">ZZZ</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Title</td>
+                <td><input type="text" value="Sales Representative"></td>
+            </tr>
+            <tr>
+                <td>Suffix</td>
+                <td><input type="text" value="Ms."></td>
+            </tr>
+            <tr>
+                <td>BirthDate</td>
+                <td><input type="text" value="1969-07-02 00:00:00"></td>
+            </tr>
+            <tr>
+                <td>HireDate</td>
+                <td><input type="text" value="1994-11-15 00:00:00"></td>
+            </tr>
+            <tr>
+                <td>SSN # (if applicable)</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Reports To</td>
+                <td>
+                    <select>
+                        <option selected>Buchanan</option>
+                        <option>Other managers</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+
+        <h2>Contact Info</h2>
+        <table>
+            <tr>
+                <td>Email</td>
+                <td><input type="email" value="name@example.com"></td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td><input type="text" value="7 Houndstooth Rd."></td>
+            </tr>
+            <tr>
+                <td>City</td>
+                <td><input type="text" value="London"></td>
+            </tr>
+            <tr>
+                <td>Region</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Postal Code</td>
+                <td><input type="text" value="WG2 7LT"></td>
+            </tr>
+            <tr>
+                <td>Country</td>
+                <td>
+                    <select>
+                        <option selected>Russian Federation</option>
+                        <option>Other countries</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>US Home Phone</td>
+                <td><input type="text" value="(234)234-2342"></td>
+            </tr>
+            <tr>
+                <td>Photo</td>
+                <td><input type="text" value="EmptD9.bmp"></td>
+            </tr>
+        </table>
+
+        <h2>Optional Info</h2>
+        <table>
+            <tr>
+                <td>Notes</td>
+                <td>
+                    <div>
+                        <div>
+                            <button type="button">B</button>
+                            <button type="button">I</button>
+                            <button type="button">U</button>
+                        </div>
+                        <textarea rows="4" cols="50">Anne has a BA degree in English from St. Lawrence College. She is fluent in French and German ZZZ.</textarea>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Preferred Shift</td>
+                <td>
+                    <input type="checkbox" id="regular"> <label for="regular">Regular</label><br>
+                    <input type="checkbox" id="graveyard" checked> <label for="graveyard">Gravy Yard</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Active?</td>
+                <td>
+                    <input type="checkbox" checked>
+                </td>
+            </tr>
+            <tr>
+                <td>Are you human?</td>
+                <td>
+                    <div>TIDANO</div>
+                    <button type="button">Click to change</button>
+                </td>
+            </tr>
+        </table>
+
+        <div>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+</body>
+</html>
