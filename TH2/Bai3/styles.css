@@ -33,7 +33,7 @@ main {
 .content-1 {
     background-color: white;
     padding: 40px 30px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 .content-1 h2 {
